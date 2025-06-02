@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4f4f9 url("images/background.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.poll-list li,
+.result-list li {
+    margin-bottom: 10px;
+}
+
+.poll-list li a {
+    color: #007b5e;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.poll-list li a:hover {
+    text-decoration: underline;
+}
+
+.choice-item {
+    margin: 10px 0;
+}
+
+button,
+.btn {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #005f47;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
